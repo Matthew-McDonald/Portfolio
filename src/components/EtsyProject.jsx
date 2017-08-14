@@ -6,7 +6,7 @@ class Etsy extends Component {
   render() {
     return (
       <div>
-        <h3>Etsy</h3>
+        <h3>Etsy Project</h3>
       <div className="etsyContainer">
         <div>
           <p>This was my first big Javascript project. I utilized SoundCloud's API to instantly search for tracks and bands on SoundClound, display the results and play the song right from the app.</p>
