@@ -1,0 +1,7 @@
+.headerContainer {
+  height: 100px;
+  position: fixed;
+  border-bottom: 1px solid grey;
+  line-height: 1;
+  width: 100vw;
+}

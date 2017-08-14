@@ -1,0 +1,23 @@
+.featuredContainer {
+  background-color: darkgrey;
+}
+.imageContainer {
+  width: 49vw;
+  height: 20vw;
+  overflow:  scroll;
+}
+
+/**SOUNDCLOUD**/
+
+.soundCloudContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+/**ETSY**/
+.etsyContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

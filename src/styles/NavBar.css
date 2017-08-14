@@ -1,0 +1,7 @@
+.navBarContainer {
+  width: 100vw;
+  text-align: right;
+  height: 100px;
+  position: fixed;
+  line-height: 3;
+}
