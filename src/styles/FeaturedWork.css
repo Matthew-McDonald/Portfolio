@@ -5,7 +5,8 @@
 .featuredContainer {
   background-color: darkgrey;
   text-align: center;
-  padding-bottom: 40px;
+
+  width: 100vw;
 }
 
 .imageContainer {
@@ -14,11 +15,26 @@
   overflow: scroll;
   border: 10px solid black;
   border-radius: 5px;
+  margin: auto;
   margin-top: 10px;
 }
 
+.etsy-ProjectContainer {
+  background-color: #666666;
+
+}
+.soundCloud-ProjectContainer {
+  background-color: #4d4d4d;
+}
 .projectContainer {
-  margin: 20px;
+  margin: 0px;
+  width: 100vw;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.movie-ProjectContainer {
+  background-color: #333333;
+  padding-bottom: 40px;
 }
 .projectScreenShot {
   width: 80vw;
@@ -28,6 +44,8 @@
 
 .mainMovieContainer {
   position: relative;
+  padding-top: 10px;
+  margin:auto;
   width: 80vw;
   height: 40vw;
 }
@@ -69,16 +87,22 @@
     overflow: scroll hidden;
     border: 10px solid black;
     border-radius: 5px;
-    margin: none;
+    margin: 0;
   }
   .projectScreenShot {
     width: inherit;
   }
-  .projectContainer {
-    margin: 10px;
-  }
   .textContainer {
     width: 40vw;
+  }
+  .projectContainer {
+    margin: 0px;
+    width: 100vw;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .movie-ProjectContainer {
+    padding-bottom: 40px;
   }
 
   /**SOUNDCLOUD**/
@@ -147,12 +171,19 @@
     overflow: scroll hidden;
     border: 10px solid black;
     border-radius: 5px;
+    margin: 0;
   }
   .projectScreenShot {
     width: inherit;
   }
   .textContainer {
     width: 35vw;
+  }
+  .projectContainer {
+    margin: 0px;
+    width: 100vw;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   /**SOUNDCLOUD**/
@@ -170,12 +201,15 @@
   }
 
   /**Movie**/
-
+  .movie-ProjectContainer {
+    padding-bottom: 40px;
+  }
   .MovieContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+
   .mainMovieContainer {
     position: relative;
     width: 37vw;

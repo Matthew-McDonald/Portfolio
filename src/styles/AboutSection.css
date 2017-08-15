@@ -1,45 +1,52 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
+
+/*MOBILE*/
+
 .aboutMeContainer {
-  height: 200px;
-  background-color: grey;
+
+  background-color: #F8F8F8;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 100vw;
 }
-.aboutBox {
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 20vw;
+.aboutMeChildContainer {
+  margin-left: 0;
+  margin-right: 0;
 }
 /* entire container, keeps perspective */
 .flip-container {
-  border: 1px solid black;
 	perspective: 1000px;
 	transform-style: preserve-3d;
 }
 	/*  UPDATED! flip the pane when hovered */
 	.flip-container:hover .back {
-		transform: rotateY(0deg);
+    opacity: 1;
+    transform:scale(1.05);
+		/*transform: rotateY(0deg);*/
 	}
 	.flip-container:hover .front {
-	    transform: rotateY(180deg);
+    opacity: 0;
+	    /*transform: rotateY(180deg);*/
 	}
 
 .flip-container, .front, .back {
-	width: 20vw;
-	height: 10vw;
+  width: 100vw;
+	height: 30vw;
 }
 
 /* flip speed goes here */
 .flipper {
-	transition: 3s;
+	transition: 1s;
 	transform-style: preserve-3d;
-
 	position: relative;
+  text-align: center;
 }
 
 /* hide back of pane during swap */
 .front, .back {
-	backface-visibility: hidden;
-	transition: 3s;
+	/*backface-visibility: hidden;*/
+	transition: 1s;
 	transform-style: preserve-3d;
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -48,31 +55,143 @@
 /*  UPDATED! front pane, placed above back */
 .front {
 	z-index: 2;
-	transform: rotateY(0deg);
-  background-color: blue;
+  background-color: #F8F8F8;
+  /*transform: rotateY(0deg);*/
 }
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(-180deg);
-    background-color: red;
+    background-color:  #e6e6e6;
+    /*transform: rotateY(-180deg);*/
 }
 
-/*
-	Some vertical flip updates
-*/
-.vertical.flip-container {
+/****TABLET*******/
+@media screen and (min-width: 545px) {
+  .aboutMeContainer {
+    height: 15vw;
+    background-color: #F8F8F8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100vw;
+  }
+  .aboutMeChildContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* entire container, keeps perspective */
+  .flip-container {
+  	perspective: 1000px;
+  	transform-style: preserve-3d;
+  }
+  	/*  UPDATED! flip the pane when hovered */
+  	.flip-container:hover .back {
+      opacity: 1;
+      transform:scale(1.05);
+  		/*transform: rotateY(0deg);*/
+  	}
+  	.flip-container:hover .front {
+      opacity: 0;
+  	    /*transform: rotateY(180deg);*/
+  	}
+
+  .flip-container, .front, .back {
+    width: 25vw;
+  	height: 15vw;
+  }
+
+  /* flip speed goes here */
+  .flipper {
+  	transition: 1s;
+  	transform-style: preserve-3d;
+  	position: relative;
+    text-align: center;
+  }
+
+  /* hide back of pane during swap */
+  .front, .back {
+  	/*backface-visibility: hidden;*/
+  	transition: 1s;
+  	transform-style: preserve-3d;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  }
+
+  /*  UPDATED! front pane, placed above back */
+  .front {
+  	z-index: 2;
+    background-color: #F8F8F8;
+    /*transform: rotateY(0deg);*/
+  }
+
+  /* back, initially hidden pane */
+  .back {
+      background-color:  #e6e6e6;
+      /*transform: rotateY(-180deg);*/
+  }
+}
+/******DESKTOP*****/
+@media screen and (min-width: 769px) {
+.aboutMeContainer {
+  height: 15vw;
+  background-color: #F8F8F8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+}
+.aboutMeChildContainer {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+	/*  UPDATED! flip the pane when hovered */
+	.flip-container:hover .back {
+    opacity: 1;
+    transform:scale(1.05);
+		/*transform: rotateY(0deg);*/
+	}
+	.flip-container:hover .front {
+    opacity: 0;
+	    /*transform: rotateY(180deg);*/
+	}
+
+.flip-container, .front, .back {
+  width: 25vw;
+	height: 15vw;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
 	position: relative;
+  text-align: center;
 }
 
-	.vertical .back {
-		transform: rotateX(180deg);
-	}
+/* hide back of pane during swap */
+.front, .back {
+	/*backface-visibility: hidden;*/
+	transition: 1s;
+	transform-style: preserve-3d;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
-	.vertical.flip-container:hover .back {
-	    transform: rotateX(0deg);
-	}
+/*  UPDATED! front pane, placed above back */
+.front {
+	z-index: 2;
+  background-color: #F8F8F8;
+  /*transform: rotateY(0deg);*/
+}
 
-	.vertical.flip-container:hover .front {
-	    transform: rotateX(180deg);
-	}
+/* back, initially hidden pane */
+.back {
+    background-color:  #e6e6e6;
+    /*transform: rotateY(-180deg);*/
+}
+}

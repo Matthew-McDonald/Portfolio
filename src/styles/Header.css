@@ -12,6 +12,7 @@
 }
 
 .headerContainer {
+  position: absolute;
   line-height: 1;
   width: 100vw;
   border-bottom: 1px solid black;
@@ -21,6 +22,7 @@
 /****TABLET*******/
 @media screen and (min-width: 545px) {
   .headerContainer {
+    position: absolute;
     line-height: 1;
     width: 100vw;
     border-bottom: 1px solid black;
@@ -29,7 +31,7 @@
   .headerWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
+
 
   }
   .NavBar {
@@ -41,7 +43,7 @@
 @media screen and (min-width: 769px) {
 
 .headerContainer {
-  position: fixed;
+  position: absolute;
   border-bottom: 1px solid grey;
   line-height: 1;
   width: 100vw;
