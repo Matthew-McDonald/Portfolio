@@ -1,0 +1,9 @@
+.aboutMeContainer {
+  height: 200px;
+  background-color: grey;
+}
+.aboutBox {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20vw;
+}

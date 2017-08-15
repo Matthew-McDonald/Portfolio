@@ -1,23 +1,256 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
+
+
+/****Mobile****/
+
 .featuredContainer {
   background-color: darkgrey;
+  text-align: center;
+  padding-bottom: 40px;
 }
+
 .imageContainer {
-  width: 49vw;
-  height: 20vw;
-  overflow:  scroll;
+  width: 80vw;
+  height: 40vw;
+  overflow: scroll;
+  border: 10px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
-/**SOUNDCLOUD**/
+.projectContainer {
+  margin: 20px;
+}
+.projectScreenShot {
+  width: 80vw;
+}
 
-.soundCloudContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+/* MOBILE MOVIE **/
+.mainMovieContainer {
+  position: relative;
+  width: 80vw;
+  height: 40vw;
+}
+
+.movieImageContainer {
+  position: absolute;
+  width: 80vw;
+  height: 40vw;
+  overflow: scroll;
+  border: 10px solid black;
+  border-radius: 5px;
+  z-index: 0
+}
+.projectScreenShotMovie {
+  width: inherit;
+
+
+}
+.mobileContainer {
+  width: 15vw;
+  height: 25vw;
+  overflow: scroll;
+  border: 5px solid white;
+  border-radius: 5px;
+  z-index: 1;
+  position: absolute;
+  top: 82%;
+  left: 98%;
+  transform: translate(-50%, -50%);
+}
+.mobileScreenShot {
+  width: inherit;
+
+}
+
+
+/****TABLET*******/
+@media screen and (min-width: 545px) {
+
+  /***ALL***/
+  .imageContainer {
+    width: 40vw;
+    height: 40vw;
+    overflow: scroll hidden;
+    border: 10px solid black;
+    border-radius: 5px;
+    margin: none;
+  }
+  .projectScreenShot {
+    width: inherit;
+
+  }
+  .projectContainer {
+    margin: 10px;
+  }
+  .textContainer {
+    width: 40vw;
+  }
+
+  /**SOUNDCLOUD**/
+
+  .soundCloudContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+
+  /**ETSY**/
+  .etsyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  /**Movie**/
+  .MovieContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .mainMovieContainer {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .movieImageContainer {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    overflow: scroll hidden;
+    border: 10px solid black;
+    border-radius: 5px;
+    z-index: 0
+  }
+  .projectScreenShotMovie {
+    width: inherit;
+
+
+  }
+  .mobileContainer {
+    width: 10vw;
+    height: 15vw;
+    overflow: scroll hidden;
+    border: 5px solid white;
+    border-radius: 5px;
+    z-index: 1;
+    position: absolute;
+    top: 89%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+  }
+  .mobileScreenShot {
+    width: inherit;
+
+  }
+
+
+
+
 }
 
 
 
-/**ETSY**/
-.etsyContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+/******DESKTOP*****/
+@media screen and (min-width: 769px) {
+
+  /***ALL***/
+  .imageContainer {
+    width: 35vw;
+    height: 25vw;
+    overflow: scroll hidden;
+    border: 10px solid black;
+    border-radius: 5px;
+  }
+  .projectScreenShot {
+    width: inherit;
+  }
+  .textContainer {
+    width: 35vw;
+  }
+
+
+
+  /**SOUNDCLOUD**/
+
+  .soundCloudContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  /**ETSY**/
+  .etsyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  /**Movie**/
+
+  .MovieContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+  }
+  .mainMovieContainer {
+    position: relative;
+    width: 37vw;
+    height: 25vw;
+  }
+
+  .movieImageContainer {
+    position: absolute;
+    width: 35vw;
+    height: 25vw;
+    overflow: scroll;
+    border: 10px solid black;
+    border-radius: 5px;
+    z-index: 0
+  }
+  .projectScreenShotMovie {
+    width: inherit;
+
+
+  }
+  .mobileContainer {
+    width: 8vw;
+    height: 15vw;
+    overflow: scroll;
+    border: 5px solid white;
+    border-radius: 5px;
+    z-index: 1;
+    position: absolute;
+    top: 78%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+  .mobileScreenShot {
+    width: inherit;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

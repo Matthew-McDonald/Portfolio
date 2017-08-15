@@ -1,7 +1,58 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
+
+/****Mobile****/
+.headerWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid black;
+}
+.NavBar {
+  text-align: right;
+  line-height: 3;
+}
+
 .headerContainer {
-  height: 100px;
+  line-height: 1;
+  width: 100vw;
+  border-bottom: 1px solid black;
+}
+
+
+/****TABLET*******/
+@media screen and (min-width: 545px) {
+  .headerContainer {
+    line-height: 1;
+    width: 100vw;
+    border-bottom: 1px solid black;
+  }
+
+  .headerWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+
+  }
+  .NavBar {
+    text-align: right;
+    line-height: 3;
+  }
+}
+/******DESKTOP*****/
+@media screen and (min-width: 769px) {
+
+.headerContainer {
   position: fixed;
   border-bottom: 1px solid grey;
   line-height: 1;
   width: 100vw;
+}
+
+.headerWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.NavBar {
+  text-align: right;
+  line-height: 3;
+}
 }
