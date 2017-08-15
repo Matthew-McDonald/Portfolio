@@ -11,13 +11,13 @@ class Featured extends Component {
         <a name="Featured">
           <h3>Featured</h3>
         </a>
-        <div className="projectContainer">
+        <div className="etsy-ProjectContainer projectContainer">
         <Etsy />
         </div>
-        <div className="projectContainer">
+        <div className="projectContainer soundCloud-ProjectContainer">
         <SoundCloud />
         </div>
-        <div className="projectContainer">
+        <div className="projectContainer movie-ProjectContainer">
         <ResponsiveMovie />
         </div>
       </div>
