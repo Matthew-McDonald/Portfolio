@@ -13,9 +13,6 @@ class Base extends Component {
         <div className="headerContainer">
           <Header />
         </div>
-      <div className="navBarContainer">
-        <NavBar />
-      </div>
       {this.props.children}
       <div>
         <Footer />

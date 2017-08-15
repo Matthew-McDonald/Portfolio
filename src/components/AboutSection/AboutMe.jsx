@@ -1,15 +1,13 @@
 import React, { Component } from "react";
-import '../styles/AboutMe.css';
+import '../../styles/AboutSection.css'
 
 class AboutMe extends Component {
   render() {
     return (
-      <div className="aboutMeContainer">
-        <a name="AboutMe"><h3>About Me</h3></a>
+      <div className="aboutBox">
+        <h3>About</h3>
       </div>
-
-
-    )
+    );
   }
 }
 
