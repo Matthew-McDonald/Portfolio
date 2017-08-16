@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import '../../styles/AboutSection.css'
 
-class Resume extends Component {
+class Skills extends Component {
   render() {
     return (
 
-        <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div className="flip-container skillsContainer" ontouchstart="this.classList.toggle('hover');">
         	<div className="flipper">
         		<div className="front">
-        			<p>Resume</p>
+        			<p>Skills</p>
         		</div>
         		<div className="back">
         			<p>Description</p>
@@ -20,4 +20,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default Skills;

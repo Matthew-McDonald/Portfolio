@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import AboutSection from "./AboutSection/AboutSection";
 import Featured from "./FeaturedProjects/FeaturedWork";
+import ContactSection from './ContactSection'
 
 import "../styles/Home.css";
 
@@ -12,6 +13,9 @@ class App extends Component {
           <a name="Home">
             <h3 />
           </a>
+        </div>
+        <div>
+          <ContactSection />
         </div>
         <div>
           <AboutSection />

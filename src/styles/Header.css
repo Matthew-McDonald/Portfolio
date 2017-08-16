@@ -4,7 +4,7 @@
 .headerWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-bottom: 1px solid black;
+
 }
 .NavBar {
   text-align: right;
@@ -15,7 +15,25 @@
   position: absolute;
   line-height: 1;
   width: 100vw;
-  border-bottom: 1px solid black;
+  color: Black;
+  font-weight: bold;
+}
+.headerContainer h1 {
+  font-family: Slabo;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+.headerContainer p {
+  color: #517394;
+  font-weight: bold;
+  margin-left:90px;
+}
+.NavBar a {
+  color: #e6e6e6;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: Slabo;
 }
 
 
@@ -25,28 +43,56 @@
     position: absolute;
     line-height: 1;
     width: 100vw;
-    border-bottom: 1px solid black;
+    color: Black;
+    font-weight: bold;
+  }
+  .headerContainer h1 {
+    font-family: Slabo;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: -15px;
+  }
+  .headerContainer p {
+    color: #517394;
+    font-weight: bold;
+    margin-left: 140px;
   }
 
   .headerWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-
   }
   .NavBar {
     text-align: right;
     line-height: 3;
+  }
+  .NavBar a {
+    color: #e6e6e6;
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: Slabo;
   }
 }
 /******DESKTOP*****/
 @media screen and (min-width: 769px) {
 
 .headerContainer {
-  position: absolute;
-  border-bottom: 1px solid grey;
+  position: fixed;
   line-height: 1;
   width: 100vw;
+  color: #34495E;
+  font-weight: bold;
+}
+.headerContainer h1 {
+  font-family: Slabo;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: -15px;
+}
+.headerContainer p {
+  color: #A4243B;
+  font-weight: bold;
+  margin-left: 140px;
 }
 
 .headerWrapper {
@@ -57,4 +103,18 @@
   text-align: right;
   line-height: 3;
 }
+.NavBar a {
+  color: #e6e6e6;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: Slabo;
+}
+
+.NavBar a:hover {
+  text-decoration: underline;
+  margin-right: 20px;
+  transition: 1s;
+}
+
+
 }

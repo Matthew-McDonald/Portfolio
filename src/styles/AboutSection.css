@@ -3,15 +3,14 @@
 /*MOBILE*/
 
 .aboutMeContainer {
-
-  background-color: #F8F8F8;
+  background-color: #34495E;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   width: 100vw;
 }
 .aboutMeChildContainer {
   margin-left: 0;
-  margin-right: 0;
+  margin-right: -10px;
 }
 /* entire container, keeps perspective */
 .flip-container {
@@ -21,7 +20,7 @@
 	/*  UPDATED! flip the pane when hovered */
 	.flip-container:hover .back {
     opacity: 1;
-    transform:scale(1.05);
+    transform:scale(1.03);
 		/*transform: rotateY(0deg);*/
 	}
 	.flip-container:hover .front {
@@ -55,13 +54,21 @@
 /*  UPDATED! front pane, placed above back */
 .front {
 	z-index: 2;
-  background-color: #F8F8F8;
+  background-color: #484848;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e6e6e6;
   /*transform: rotateY(0deg);*/
 }
 
 /* back, initially hidden pane */
 .back {
     background-color:  #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #484848;
     /*transform: rotateY(-180deg);*/
 }
 
@@ -69,14 +76,14 @@
 @media screen and (min-width: 545px) {
   .aboutMeContainer {
     height: 15vw;
-    background-color: #F8F8F8;
+    background-color: #34495E;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100vw;
   }
   .aboutMeChildContainer {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: -10px;
   }
   /* entire container, keeps perspective */
   .flip-container {
@@ -86,7 +93,7 @@
   	/*  UPDATED! flip the pane when hovered */
   	.flip-container:hover .back {
       opacity: 1;
-      transform:scale(1.05);
+      transform:scale(1.03);
   		/*transform: rotateY(0deg);*/
   	}
   	.flip-container:hover .front {
@@ -95,7 +102,7 @@
   	}
 
   .flip-container, .front, .back {
-    width: 25vw;
+    width: 33vw;
   	height: 15vw;
   }
 
@@ -120,13 +127,21 @@
   /*  UPDATED! front pane, placed above back */
   .front {
   	z-index: 2;
-    background-color: #F8F8F8;
+    background-color: #484848;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6e6e6;
     /*transform: rotateY(0deg);*/
   }
 
   /* back, initially hidden pane */
   .back {
       background-color:  #e6e6e6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #484848;
       /*transform: rotateY(-180deg);*/
   }
 }
@@ -134,14 +149,16 @@
 @media screen and (min-width: 769px) {
 .aboutMeContainer {
   height: 15vw;
-  background-color: #F8F8F8;
+  background-color: #34495E;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 100vw;
+align-content: center;
 }
 .aboutMeChildContainer {
   margin-left: 0;
-  margin-right: 0;
+  margin-right: -20px;
+  width: 33vw;
 }
 /* entire container, keeps perspective */
 .flip-container {
@@ -151,7 +168,7 @@
 	/*  UPDATED! flip the pane when hovered */
 	.flip-container:hover .back {
     opacity: 1;
-    transform:scale(1.05);
+    transform:scale(1.03);
 		/*transform: rotateY(0deg);*/
 	}
 	.flip-container:hover .front {
@@ -160,8 +177,9 @@
 	}
 
 .flip-container, .front, .back {
-  width: 25vw;
+  width: 33vw;
 	height: 15vw;
+
 }
 
 /* flip speed goes here */
@@ -185,13 +203,29 @@
 /*  UPDATED! front pane, placed above back */
 .front {
 	z-index: 2;
-  background-color: #F8F8F8;
+  background-color: #34495E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e6e6e6;
   /*transform: rotateY(0deg);*/
 }
 
 /* back, initially hidden pane */
 .back {
     background-color:  #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #484848;
     /*transform: rotateY(-180deg);*/
 }
+
+.KITContainer {
+  border-left: thin solid white;
+}
+.skillsContainer {
+  border-right: thin solid white;
+}
+
 }
