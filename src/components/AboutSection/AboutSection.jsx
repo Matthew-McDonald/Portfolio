@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import '../../styles/AboutSection.css';
 import AboutMe from './AboutMe'
-import Resume from './Resume'
+import Skills from './Skills'
 import Hobbies from './Hobbies'
 import KeepInTouch from './KeepInTouch'
 
@@ -14,11 +14,8 @@ class AboutSection extends Component {
         <AboutMe />
       </div>
       <div className="aboutMeChildContainer">
-        <Resume />
+        <Skills />
       </div>
-      <div className="aboutMeChildContainer">
-        <Hobbies />
-      </div >
       <div className="aboutMeChildContainer">
         <KeepInTouch />
       </div>

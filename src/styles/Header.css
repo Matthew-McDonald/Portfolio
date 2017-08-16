@@ -15,12 +15,25 @@
   position: absolute;
   line-height: 1;
   width: 100vw;
-  border-bottom: 1px solid #484848;
-  color: #484848;
+  color: Black;
+  font-weight: bold;
+}
+.headerContainer h1 {
+  font-family: Slabo;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+.headerContainer p {
+  color: #517394;
+  font-weight: bold;
+  margin-left:90px;
 }
 .NavBar a {
-  color: #484848;
+  color: #e6e6e6;
   text-decoration: none;
+  margin-right: 15px;
+  font-family: Slabo;
 }
 
 
@@ -30,23 +43,34 @@
     position: absolute;
     line-height: 1;
     width: 100vw;
-    border-bottom: 1px solid #484848;
-    color: #484848;
+    color: Black;
+    font-weight: bold;
+  }
+  .headerContainer h1 {
+    font-family: Slabo;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: -15px;
+  }
+  .headerContainer p {
+    color: #517394;
+    font-weight: bold;
+    margin-left: 140px;
   }
 
   .headerWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-
   }
   .NavBar {
     text-align: right;
     line-height: 3;
   }
   .NavBar a {
-    color: #484848;
+    color: #e6e6e6;
     text-decoration: none;
+    margin-right: 15px;
+    font-family: Slabo;
   }
 }
 /******DESKTOP*****/
@@ -54,10 +78,21 @@
 
 .headerContainer {
   position: fixed;
-  border-bottom: 1px solid #484848;
   line-height: 1;
   width: 100vw;
-  color: #484848;
+  color: Black;
+  font-weight: bold;
+}
+.headerContainer h1 {
+  font-family: Slabo;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: -15px;
+}
+.headerContainer p {
+  color: #517394;
+  font-weight: bold;
+  margin-left: 140px;
 }
 
 .headerWrapper {
@@ -69,7 +104,17 @@
   line-height: 3;
 }
 .NavBar a {
-  color: #484848;
+  color: #e6e6e6;
   text-decoration: none;
+  margin-right: 15px;
+  font-family: Slabo;
 }
+
+.NavBar a:hover {
+  text-decoration: underline;
+  margin-right: 20px;
+  transition: 1s;
+}
+
+
 }

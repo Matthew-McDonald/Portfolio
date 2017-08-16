@@ -5,7 +5,7 @@
 .aboutMeContainer {
   background-color: #484848;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   width: 100vw;
 }
 .aboutMeChildContainer {
@@ -78,7 +78,7 @@
     height: 15vw;
     background-color: #484848;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100vw;
   }
   .aboutMeChildContainer {
@@ -102,7 +102,7 @@
   	}
 
   .flip-container, .front, .back {
-    width: 25vw;
+    width: 33vw;
   	height: 15vw;
   }
 
@@ -151,7 +151,7 @@
   height: 15vw;
   background-color: #484848;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 100vw;
 }
 .aboutMeChildContainer {
@@ -175,7 +175,7 @@
 	}
 
 .flip-container, .front, .back {
-  width: 25vw;
+  width: 33vw;
 	height: 15vw;
 }
 
@@ -200,7 +200,7 @@
 /*  UPDATED! front pane, placed above back */
 .front {
 	z-index: 2;
-  background-color: #484848;
+  background-color: #34495E;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -217,62 +217,5 @@
     color: #484848;
     /*transform: rotateY(-180deg);*/
 }
-
-/********KEEPINTOUCH**************/
-.kitBackContainer {
-  display: grid;
-  grid-template-columns: 4;
-}
-.container {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-
-}
-
- .grid-1 .grid-2 .grid-3 .grid-4 {
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-}
-.grid-1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 1;
-}
-.GitHubLogo {
-  margin-top: 15%;
-}
-
-.grid-2 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row: 1;
-  justify-content: center;
-}
-.LinkedInLogo {
-  padding-top: 0;
-}
-
-.grid-3 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 2;
-}
-
-.grid-4 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row: 2;
-}
-
-.callout {
-  margin: 0;
-  width: 10vw;
-  height: 10vh;
-  border: 1px solid black;
-}
-
-
 
 }
