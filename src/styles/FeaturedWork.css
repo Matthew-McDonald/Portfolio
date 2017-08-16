@@ -8,23 +8,26 @@
   position: absolute;
   width: 100vw;
 }
+.textContainer {
+  color: #484848;
+}
 
 .imageContainer {
   width: 80vw;
   height: 40vw;
   overflow: scroll;
-  border: 10px solid black;
+  border: 10px solid #484848;
   border-radius: 5px;
   margin: auto;
   margin-top: 10px;
 }
 
 .etsy-ProjectContainer {
-  background-color: #666666;
+  background-color: #e6e6e6;
 
 }
 .soundCloud-ProjectContainer {
-  background-color: #4d4d4d;
+  background-color: #b3b3b3;
 }
 .projectContainer {
   margin: 0px;
@@ -33,7 +36,7 @@
   padding-top: 20px;
 }
 .movie-ProjectContainer {
-  background-color: #333333;
+  background-color: #e6e6e6;
   padding-bottom: 40px;
 }
 .projectScreenShot {
@@ -85,7 +88,7 @@
     width: 40vw;
     height: 40vw;
     overflow: scroll hidden;
-    border: 10px solid black;
+    border: 10px solid #484848;
     border-radius: 5px;
     margin: 0;
   }
@@ -94,6 +97,7 @@
   }
   .textContainer {
     width: 40vw;
+    color: #484848
   }
   .projectContainer {
     margin: 0px;
@@ -169,7 +173,7 @@
     width: 35vw;
     height: 25vw;
     overflow: scroll hidden;
-    border: 10px solid black;
+    border: 10px solid #484848;
     border-radius: 5px;
     margin: 0;
   }
@@ -178,6 +182,10 @@
   }
   .textContainer {
     width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#484848;
   }
   .projectContainer {
     margin: 0px;

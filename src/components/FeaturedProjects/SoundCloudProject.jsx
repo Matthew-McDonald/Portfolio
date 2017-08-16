@@ -9,6 +9,7 @@ class SoundCloud extends Component {
         <h3>Searchable SoundCloud API</h3>
         <div className="soundCloudContainer">
           <div className="soundCLoudtextContainer textContainer">
+            <div className="flexedTextContainer">
             <p>
               This was my first big Javascript project. I utilized SoundCloud's
               API to instantly search for tracks and bands on SoundClound,
@@ -31,6 +32,7 @@ class SoundCloud extends Component {
                 Code
               </a>
             </button>
+            </div>
           </div>
           <div className="soundCloudImgContainer imageContainer">
             <img

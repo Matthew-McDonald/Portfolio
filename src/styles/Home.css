@@ -1,7 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
 
 .mainContainer {
-  background-image: url("./images/homeBackground.jpg");
+  background-image: url("./images/HarderKlum2Mobile.jpg");
   height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -21,8 +21,8 @@
 /****TABLET*******/
 @media screen and (min-width: 545px) {
   .mainContainer {
-    background-image: url("./images/homeBackground.jpg");
-    height: 400px;
+    background-image: url("./images/HarderKlum2Mobile.jpg");
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,8 +44,8 @@
 /******DESKTOP*****/
 @media screen and (min-width: 769px) {
   .mainContainer {
-    background-image: url("./images/homeBackground.jpg");
-    height: 600px;
+    background-image: url("./images/HarderKlum2.jpg");
+    height: 730px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

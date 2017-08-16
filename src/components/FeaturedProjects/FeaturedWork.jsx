@@ -8,10 +8,9 @@ class Featured extends Component {
   render() {
     return (
       <div className="featuredContainer">
-        <a name="Featured">
-          <h3>Featured</h3>
-        </a>
+
         <div className="etsy-ProjectContainer projectContainer">
+          <a name="Featured"></a>
         <Etsy />
         </div>
         <div className="projectContainer soundCloud-ProjectContainer">

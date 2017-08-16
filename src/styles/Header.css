@@ -4,7 +4,7 @@
 .headerWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-bottom: 1px solid black;
+
 }
 .NavBar {
   text-align: right;
@@ -15,7 +15,12 @@
   position: absolute;
   line-height: 1;
   width: 100vw;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #484848;
+  color: #484848;
+}
+.NavBar a {
+  color: #484848;
+  text-decoration: none;
 }
 
 
@@ -25,7 +30,8 @@
     position: absolute;
     line-height: 1;
     width: 100vw;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #484848;
+    color: #484848;
   }
 
   .headerWrapper {
@@ -38,15 +44,20 @@
     text-align: right;
     line-height: 3;
   }
+  .NavBar a {
+    color: #484848;
+    text-decoration: none;
+  }
 }
 /******DESKTOP*****/
 @media screen and (min-width: 769px) {
 
 .headerContainer {
   position: fixed;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #484848;
   line-height: 1;
   width: 100vw;
+  color: #484848;
 }
 
 .headerWrapper {
@@ -56,5 +67,9 @@
 .NavBar {
   text-align: right;
   line-height: 3;
+}
+.NavBar a {
+  color: #484848;
+  text-decoration: none;
 }
 }
