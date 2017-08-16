@@ -11,10 +11,10 @@ class AboutSection extends Component {
       <div className="aboutMeContainer">
       <div className="aboutMeChildContainer">
         <a name="AboutMe"></a>
-        <AboutMe />
+        <Skills />
       </div>
       <div className="aboutMeChildContainer">
-        <Skills />
+        <AboutMe />
       </div>
       <div className="aboutMeChildContainer">
         <KeepInTouch />

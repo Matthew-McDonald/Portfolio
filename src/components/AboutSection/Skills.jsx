@@ -5,7 +5,7 @@ class Skills extends Component {
   render() {
     return (
 
-        <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div className="flip-container skillsContainer" ontouchstart="this.classList.toggle('hover');">
         	<div className="flipper">
         		<div className="front">
         			<p>Skills</p>

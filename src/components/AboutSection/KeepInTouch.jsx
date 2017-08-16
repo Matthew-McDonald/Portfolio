@@ -5,7 +5,7 @@ class KeepInTouch extends Component {
   render() {
     return (
       <div
-        className="flip-container"
+        className="flip-container KITContainer"
         ontouchstart="this.classList.toggle('hover');"
       >
         <div className="flipper">
