@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavBar from './NavBar';
 import Footer from './Footer'
 import Header from './Header'
-import '../styles/NavBar.css'
+import '../styles/Footer.css'
 import '../styles/Header.css'
 import '../styles/index.css'
 
@@ -14,7 +14,7 @@ class Base extends Component {
           <Header />
         </div>
       {this.props.children}
-      <div>
+      <div className="footerContainer">
         <Footer />
       </div>
 </div>

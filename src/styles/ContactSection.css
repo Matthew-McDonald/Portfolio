@@ -4,7 +4,8 @@
   grid-template-columns: 1fr 1fr;
   justify-content: space-around;
   width: 100vw;
-  height: 5vw;
+  height: 4vw;
+  position: relative;
 }
 /*.contactContainer a:hover {
   transform: scale(1.05);
@@ -15,7 +16,7 @@
   align-items: center;
   justify-content: center;
   width: 50vw;
-  height: 5vw;
+  height: 4vw;
 }
 .contactChild:hover {
   transform: scale(.9);

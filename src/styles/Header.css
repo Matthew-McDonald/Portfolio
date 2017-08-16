@@ -101,19 +101,19 @@
 }
 .NavBar {
   text-align: right;
-  line-height: 3;
+  line-height: 2.5;
 }
 .NavBar a {
   color: #e6e6e6;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 20px;
   font-family: Slabo;
 }
 
 .NavBar a:hover {
-  text-decoration: underline;
-  margin-right: 20px;
-  transition: 1s;
+  padding-right: 10px;
+  transition: .2s;
+  color: #A4243B;
 }
 
 
