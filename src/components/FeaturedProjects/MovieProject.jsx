@@ -9,7 +9,7 @@ class Movie extends Component {
         <h3>Responsive Movie Site</h3>
         <div className="MovieContainer">
           <div className="textContainer">
-            <div className="flexedTextContainer">
+            <div className="movieTextContainer">
             <p>My first responsive website, created in week 2 of The Iron Yard. It has 3 pages with break points set for mobile, tablet and desktop. </p>
             <p>React | Redux | CSS</p>
             <button>

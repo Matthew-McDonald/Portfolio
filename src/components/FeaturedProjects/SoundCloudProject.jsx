@@ -6,10 +6,10 @@ class SoundCloud extends Component {
   render() {
     return (
       <div>
-        <h3>Searchable SoundCloud API</h3>
+        <h3 className="soundCloudTitle">Searchable SoundCloud API</h3>
         <div className="soundCloudContainer">
           <div className="soundCLoudtextContainer textContainer">
-            <div className="flexedTextContainer">
+            <div className="soundCloudTextContainer">
             <p>
               This was my first big Javascript project. I utilized SoundCloud's
               API to instantly search for tracks and bands on SoundClound,

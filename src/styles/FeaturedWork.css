@@ -23,11 +23,12 @@
 }
 
 .etsy-ProjectContainer {
-  background-color: #6B818C;
+  background-color: #e6e6e6;
 
 }
 .soundCloud-ProjectContainer {
-  background-color: #b3b3b3;
+  background-color: #DAD2D8;
+
 }
 .projectContainer {
   margin: 0px;
@@ -36,7 +37,7 @@
   padding-top: 20px;
 }
 .movie-ProjectContainer {
-  background-color: #A4243B;
+  background-color: #BEBBBB;
   padding-bottom: 40px;
 }
 .projectScreenShot {
@@ -142,7 +143,7 @@
     width: 40vw;
     height: 40vw;
     overflow: scroll hidden;
-    border: 10px solid black;
+    border: 10px solid #34495E;
     border-radius: 5px;
     z-index: 0;
   }
@@ -173,7 +174,7 @@
     width: 35vw;
     height: 25vw;
     overflow: scroll hidden;
-    border: 10px solid #484848;
+    border: 10px solid #34495E;
     border-radius: 5px;
     margin: 0;
   }
@@ -183,7 +184,6 @@
   .textContainer {
     width: 35vw;
     display: flex;
-    align-items: center;
     justify-content: center;
     color:#484848;
   }
@@ -201,21 +201,79 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .soundCloudTitle {
+    color: #34495E;
+  }
+  .soundCloudTextContainer {
+    color: #34495E;
+  }
+
   /**ETSY**/
   .etsyContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+  .etsyTitle {
+    color: #34495E;
+    font-size: 30px;
+  }
+
+  .etsyTextContainer {
+    color: #34495E;
+    text-align: center;
+    width: 30vw;
+    font-size: 18px;
+    margin-right: -10vw;;
+  }
+  .etsyParagraph {
+    text-align: left;
+  }
+  .etsySkillList {
+    border-top: thin solid #484848;
+    border-bottom: thin solid #484848;
+    margin: auto;
+    width: 20vw;
+    line-height: 3;
+    margin-bottom: 20px;
+  }
+  .one {
+    margin-right: 10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .etsyButton {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin solid #34495E;
+    background-color: #e6e6e6;
+  }
+  .etsyButton:hover {
+    border-color: #A4243B;
+  }
+  .etsyButton a {
+    text-decoration: none;
+    color: #34495E;
+  }
+  .etsyButton a:hover {
+    color: #A4243B;
+
+  }
 
   /**Movie**/
   .movie-ProjectContainer {
     padding-bottom: 40px;
+    color: #34495E;
   }
   .MovieContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+  }
+  .movieTextContainer {
+    color: #34495E;
   }
 
   .mainMovieContainer {
@@ -229,7 +287,7 @@
     width: 35vw;
     height: 25vw;
     overflow: scroll;
-    border: 10px solid black;
+    border: 10px solid #34495E;
     border-radius: 5px;
     z-index: 0;
   }
@@ -240,7 +298,7 @@
     width: 8vw;
     height: 15vw;
     overflow: scroll;
-    border: 5px solid white;
+    border: 5px solid #34495E;
     border-radius: 5px;
     z-index: 1;
     position: absolute;
