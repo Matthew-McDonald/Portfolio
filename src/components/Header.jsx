@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Headroom from 'react-headroom'
+import {Link} from 'react-router-dom'
 
 class Header extends Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class Header extends Component {
         <br/>
         <a href="#AboutMe">Contact</a>
         <br/>
-        <a href="MatthewMcDonald-Resume.pdf" target="_blank">Resume</a>
+        <a href={process.env.PUBLIC_URL + "/MatthewMcDonald-Resume.pdf"} target="_blank">Resume</a>
       </div>
       </div>
 

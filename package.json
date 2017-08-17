@@ -13,14 +13,13 @@
     "react-sticky": "^6.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy" : "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://Matthew-McDonald.github.io/Portfolio/",
+  "homepage": "https://Matthew-McDonald.github.io",
   "devDependencies": {
     "gh-pages": "^1.0.0"
   }

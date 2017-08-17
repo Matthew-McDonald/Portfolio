@@ -18,8 +18,8 @@
   overflow: scroll;
   border: 10px solid #484848;
   border-radius: 5px;
-  margin: auto;
   margin-top: 10px;
+  margin: auto;
 }
 
 .etsy-ProjectContainer {
@@ -42,6 +42,115 @@
 }
 .projectScreenShot {
   width: 80vw;
+}
+
+/* ETSY */
+
+.etsyContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+}
+.etsyTitle {
+  color: #34495E;
+  font-size: 30px;
+}
+
+.etsyTextContainer {
+  color: #34495E;
+  text-align: center;
+  width: 100vw;
+  font-size: 18px;
+  margin-right: -10vw;
+}
+.etsyParagraph {
+  text-align: left;
+}
+.etsySkillList {
+  border-top: thin solid #484848;
+  border-bottom: thin solid #484848;
+  margin: auto;
+  width: 90vw;
+  line-height: 3;
+  margin-bottom: 20px;
+}
+.one {
+  margin-right: 10px;
+}
+.two {
+  margin-left: 10px;
+}
+.etsyButton {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: thin solid #34495E;
+  background-color: #e6e6e6;
+}
+.etsyButton:hover {
+  border-color: #A4243B;
+}
+.etsyButton a {
+  text-decoration: none;
+  color: #34495E;
+}
+.etsyButton a:hover {
+  color: #A4243B;
+
+}
+
+/**SOUNDCLOUD**/
+
+.soundCloudContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.soundCloudTitle {
+  color: #34495E;
+  font-size: 30px;
+}
+.soundCloudTextContainer {
+  color: #34495E;
+  text-align: center;
+  width: 100vw;
+  font-size: 18px;
+  margin-right: -10vw;
+}
+.soundCloudParagraph {
+  text-align: left;
+}
+.soundCloudSkillList {
+  border-top: thin solid #484848;
+  border-bottom: thin solid #484848;
+  margin: auto;
+  width: 80vw;
+  line-height: 3;
+  margin-bottom: 20px;
+}
+.one {
+  margin-right: 10px;
+}
+.two {
+  margin-left: 10px;
+}
+.soundCloudButton {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: thin solid #34495E;
+  background-color: #e6e6e6;
+}
+.soundCloudButton:hover {
+  border-color: #A4243B;
+}
+.soundCloudButton a {
+  text-decoration: none;
+  color: #34495E;
+}
+.soundCLoudButton a:hover {
+  color: #A4243B;
+
 }
 
 /* MOBILE MOVIE **/
@@ -81,6 +190,55 @@
 .mobileScreenShot {
   width: inherit;
 }
+.MovieContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.movieTextContainer {
+  color: #34495E;
+  text-align: center;
+  width: 100vw;
+  font-size: 18px;
+}
+.movieTitle {
+  color: #34495E;
+  font-size: 30px;
+}
+.movieParagraph {
+  text-align: left;
+}
+.movieSkillList {
+  border-top: thin solid #484848;
+  border-bottom: thin solid #484848;
+  margin: auto;
+  width: 80vw;
+  line-height: 3;
+  margin-bottom: 20px;
+}
+.one {
+  margin-right: 10px;
+}
+.two {
+  margin-left: 10px;
+}
+.movieButton {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: thin solid #34495E;
+  background-color: #e6e6e6;
+}
+.movieButton:hover {
+  border-color: #A4243B;
+}
+.movieButton a {
+  text-decoration: none;
+  color: #34495E;
+}
+.movieButton a:hover {
+  color: #A4243B;
+
+}
 
 /****TABLET*******/
 @media screen and (min-width: 545px) {
@@ -91,7 +249,7 @@
     overflow: scroll hidden;
     border: 10px solid #484848;
     border-radius: 5px;
-    margin: 0;
+
   }
   .projectScreenShot {
     width: inherit;
@@ -101,9 +259,7 @@
     color: #484848
   }
   .projectContainer {
-    margin: 0px;
     width: 100vw;
-    padding-bottom: 20px;
     padding-top: 20px;
   }
   .movie-ProjectContainer {
@@ -116,13 +272,110 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    grid-template-rows: none;
   }
+
+  .soundCloudTitle {
+    color: #34495E;
+    font-size: 30px;
+  }
+  .soundCloudTextContainer {
+    color: #34495E;
+    text-align: center;
+    width: 40vw;
+    font-size: 18px;
+    margin-right: -10vw;
+  }
+  .soundCloudParagraph {
+    text-align: left;
+  }
+  .soundCloudSkillList {
+    border-top: thin solid #484848;
+    border-bottom: thin solid #484848;
+    margin: auto;
+    width: 40vw;
+    line-height: 3;
+    margin-bottom: 20px;
+  }
+  .one {
+    margin-right: 10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .soundCloudButton {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin solid #34495E;
+    background-color: #e6e6e6;
+  }
+  .soundCloudButton:hover {
+    border-color: #A4243B;
+  }
+  .soundCloudButton a {
+    text-decoration: none;
+    color: #34495E;
+  }
+  .soundCLoudButton a:hover {
+    color: #A4243B;
+
+  }
+
 
   /**ETSY**/
   .etsyContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    grid-template-rows: none;
+  }
+  .etsyTitle {
+    color: #34495E;
+    font-size: 30px;
+  }
+
+  .etsyTextContainer {
+    color: #34495E;
+    text-align: center;
+    width: 40vw;
+    font-size: 18px;
+    margin-right: -10vw;
+  }
+  .etsyParagraph {
+    text-align: left;
+  }
+  .etsySkillList {
+    border-top: thin solid #484848;
+    border-bottom: thin solid #484848;
+    margin: auto;
+    width: 40vw;
+    line-height: 3;
+    margin-bottom: 20px;
+  }
+  .one {
+    margin-right: 10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .etsyButton {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin solid #34495E;
+    background-color: #e6e6e6;
+  }
+  .etsyButton:hover {
+    border-color: #A4243B;
+  }
+  .etsyButton a {
+    text-decoration: none;
+    color: #34495E;
+  }
+  .etsyButton a:hover {
+    color: #A4243B;
+
   }
 
   /**Movie**/
@@ -130,6 +383,53 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    grid-template-rows: none;
+  }
+  .movieTextContainer {
+    color: #34495E;
+    text-align: center;
+    width: 40vw;
+    font-size: 18px;
+    margin-right: -10vw;
+  }
+  .movieTitle {
+    color: #34495E;
+    font-size: 30px;
+  }
+  .movieParagraph {
+    text-align: left;
+  }
+  .movieSkillList {
+    border-top: thin solid #484848;
+    border-bottom: thin solid #484848;
+    margin: auto;
+    width: 40vw;
+    line-height: 3;
+    margin-bottom: 20px;
+  }
+  .one {
+    margin-right: 10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .movieButton {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin solid #34495E;
+    background-color: #e6e6e6;
+  }
+  .movieButton:hover {
+    border-color: #A4243B;
+  }
+  .movieButton a {
+    text-decoration: none;
+    color: #34495E;
+  }
+  .movieButton a:hover {
+    color: #A4243B;
+
   }
 
   .mainMovieContainer {

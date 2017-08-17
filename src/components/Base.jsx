@@ -15,7 +15,7 @@ class Base extends Component {
         </div>
       {this.props.children}
       <div className="footerContainer">
-        <Footer />
+      
       </div>
 </div>
     )

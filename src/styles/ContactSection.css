@@ -1,3 +1,83 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
+
+/****Mobile****/
+.contactContainer {
+  background-color: #A4243B;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  width: 100vw;
+  height: 10vw;
+  position: relative;
+}
+
+.contactChild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 10vw;
+}
+.contactChild:hover {
+  transform: scale(.9);
+}
+.resumeContainer {
+  font-size: 20px;
+  color: #040403;
+  font-family: 'Catamaran';
+}
+.LinkedInLogo {
+  width: 20vw;
+  height: 20vw;
+  margin-top: 10px;
+}
+.GitHubLogo {
+  width: 14vw;
+  height: 5vw;
+}
+
+/****TABLET*******/
+@media screen and (min-width: 545px) {
+  .contactContainer {
+    background-color: #A4243B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    width: 100vw;
+    height: 8vw;
+    position: relative;
+  }
+
+  .contactChild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 8vw;
+  }
+  .contactChild:hover {
+    transform: scale(.9);
+  }
+
+  .LinkedInLogo {
+  margin-top: 20px;
+  width: 18vw;
+  height: 18vw;
+  }
+  .resumeContainer {
+    font-size: 20px;
+    color: #040403;
+    font-family: 'Catamaran';
+  }
+  .GitHubLogo {
+    width: 13vw;
+    height: 4vw;
+  }
+}
+
+/******DESKTOP*****/
+@media screen and (min-width: 769px) {
+
 .contactContainer {
   background-color: #A4243B;
   display: grid;
@@ -7,9 +87,6 @@
   height: 4vw;
   position: relative;
 }
-/*.contactContainer a:hover {
-  transform: scale(1.05);
-}*/
 
 .contactChild {
   display: flex;
@@ -21,12 +98,18 @@
 .contactChild:hover {
   transform: scale(.9);
 }
-
 .LinkedInLogo {
-margin-top: 20px;
+  width: 10vw;
+  height: 10vw;
+  margin-top: 10px;
+}
+.GitHubLogo {
+  width: 9vw;
+  height: 2vw;
 }
 .resumeContainer {
   font-size: 20px;
   color: #040403;
   font-family: 'Catamaran';
+}
 }

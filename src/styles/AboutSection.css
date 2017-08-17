@@ -72,6 +72,63 @@
     /*transform: rotateY(-180deg);*/
 }
 
+/* KEEP IN TOUCH */
+.kitback {
+  color: #34495E;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 10px;
+}
+.kitback h6 {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.kitback p {
+  font-size: 10px;
+}
+.kitBorderBottom {
+  border-bottom: thin solid #34495E;
+  width: 80vw;
+}
+
+/* SKILLS */
+
+.skillsBack {
+  color: #34495E;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 12px;
+  justify-items: center;
+
+}
+.backPone {
+  border-bottom: thin solid #34495E;
+  padding-bottom: 10px;
+  width: 70vw;
+}
+.backPtwo {
+  margin-top: -10px;
+  width: 85vw;
+}
+.backPthree {
+  border-top: thin solid #34495E;
+  padding-top: 15px;
+  margin-top: -20px;
+  width: 70vw;
+}
+
+/* ABOUT */
+.aboutBack {
+  line-height: 1.5;
+  font-size: 12px;
+
+}
+.aboutBack p {
+  width: 85vw;
+}
+
 /****TABLET*******/
 @media screen and (min-width: 545px) {
   .aboutMeContainer {
@@ -143,6 +200,62 @@
       justify-content: center;
       color: #484848;
       /*transform: rotateY(-180deg);*/
+  }
+  /* KEEP IN TOUCH */
+  .kitback {
+    color: #34495E;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+  }
+  .kitback h6 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .kitback p {
+    font-size: 10px;
+  }
+  .kitBorderBottom {
+    border-bottom: thin solid #34495E;
+    width: 30vw;
+  }
+
+  /* SKILLS */
+
+  .skillsBack {
+    color: #34495E;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 10px;
+    justify-items: center;
+
+  }
+  .backPone {
+    border-bottom: thin solid #34495E;
+    padding-bottom: 10px;
+    width: 30vw;
+  }
+  .backPtwo {
+    margin-top: -10px;
+    width: 33vw;
+  }
+  .backPthree {
+    border-top: thin solid #34495E;
+    padding-top: 15px;
+    margin-top: -20px;
+    width: 30vw;
+  }
+
+  /* ABOUT */
+  .aboutBack {
+    line-height: 1.5;
+    font-size: 10px;
+
+  }
+  .aboutBack p {
+    width: 28vw;
   }
 }
 /******DESKTOP*****/
