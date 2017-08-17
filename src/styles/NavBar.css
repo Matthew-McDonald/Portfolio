@@ -1,9 +1,0 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
-
-.navBarContainer {
-  width: 100vw;
-  text-align: right;
-  height: 100px;
-  position: fixed;
-  line-height: 3;
-}
