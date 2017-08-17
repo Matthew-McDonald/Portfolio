@@ -13,16 +13,5 @@ import Home from './components/Home.js';
 import Base from './components/Base.jsx';
 
 
-ReactDOM.render(
-  <BrowserRouter>
-    <Base>
-      <Switch>
-        <Route exact path="/" component={Home} />
-
-      </Switch>
-    </Base>
-  </BrowserRouter>,
- document.getElementById('root'));
-
-
+ReactDOM.render(<Home />, document.getElementById('root'));
 registerServiceWorker();
