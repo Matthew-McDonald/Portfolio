@@ -6,19 +6,19 @@ class Movie extends Component {
   render() {
     return (
       <div>
-        <h3>Responsive Movie Site</h3>
+        <h3 className="movieTitle">Responsive Movie Site</h3>
         <div className="MovieContainer">
           <div className="textContainer">
             <div className="movieTextContainer">
-            <p>My first responsive website, created in week 2 of The Iron Yard. It has 3 pages with break points set for mobile, tablet and desktop. </p>
-            <p>React | Redux | CSS</p>
-            <button>
-              <a href="" target="_blank">
+            <p className="movieParagraph">My first responsive website, created in week 2 of The Iron Yard. It has 3 pages with break points set for mobile, tablet and desktop. </p>
+            <p className="movieSkillList">React | Redux | CSS</p>
+            <button className="movieButton one">
+              <a href="https://matthew-mcdonald.github.io/Responsive-Movie-Site/" target="_blank">
                 Live Site
               </a>
             </button>
-            <button>
-              <a href="" target="_blank">
+            <button className="movieButton two">
+              <a href="https://github.com/Matthew-McDonald/Responsive-Movie-Site" target="_blank">
                 Code
               </a>
             </button>

@@ -10,8 +10,10 @@ class Skills extends Component {
         		<div className="front">
         			<p>Skills</p>
         		</div>
-        		<div className="back">
-        			<p>Description</p>
+        		<div className="back skillsBack">
+        			<p className="backPone">JavaScript | React.js | Node.js | Redux </p>
+              <p className="backPtwo">HTML | CSS | Git | GitHub | MySql | PostgreSQL</p>
+              <p className="backPthree">MongoDB | Express.js | SASS | Bootstrap</p>
         		</div>
         	</div>
         </div>

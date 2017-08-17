@@ -23,7 +23,7 @@ class Etsy extends Component {
               </a>
             </button>
             <button className="etsyButton two">
-              <a href="" target="_blank">
+              <a href="https://github.com/TIY-Etsy-Project/TIY-Etsy-Final" target="_blank">
                 Code
               </a>
             </button>
