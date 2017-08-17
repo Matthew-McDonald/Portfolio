@@ -12,8 +12,15 @@ class KeepInTouch extends Component {
           <div className="front">
             <p>Keep In Touch</p>
           </div>
-          <div className="back">
-            <p>Description</p>
+          <div className="back kitback">
+            <div className="kitBorderBottom">
+              <h6>Email</h6>
+              <p>mattmcd1221@gmail.com</p>
+            </div>
+            <div>
+              <h6>Phone</h6>
+              <p>484.885.9003</p>
+            </div>
           </div>
         </div>
       </div>

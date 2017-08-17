@@ -10,13 +10,13 @@ class SoundCloud extends Component {
         <div className="soundCloudContainer">
           <div className="soundCLoudtextContainer textContainer">
             <div className="soundCloudTextContainer">
-            <p>
+            <p className="soundCloudParagraph">
               This was my first big Javascript project. I utilized SoundCloud's
               API to instantly search for tracks and bands on SoundClound,
               display the results and play the song right from the app.
             </p>
-            <p>Javascript | API | HTML | CSS</p>
-            <button>
+            <p className="soundCloudSkillList">Javascript | API | HTML | CSS</p>
+            <button className="soundCloudButton one">
               <a
                 href="https://matthew-mcdonald.github.io/SoundCloud-API/"
                 target="_blank"
@@ -24,7 +24,7 @@ class SoundCloud extends Component {
                 Live Site
               </a>
             </button>
-            <button>
+            <button className="soundCloudButton two">
               <a
                 href="https://github.com/Matthew-McDonald/SoundCloud-API"
                 target="_blank"

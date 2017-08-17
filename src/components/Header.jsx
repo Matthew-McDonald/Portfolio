@@ -24,7 +24,7 @@ class Header extends Component {
         <br/>
         <a href="#AboutMe">Contact</a>
         <br/>
-        <a href="">Resume</a>
+        <a href="MatthewMcDonald-Resume.pdf" target="_blank">Resume</a>
       </div>
       </div>
 
