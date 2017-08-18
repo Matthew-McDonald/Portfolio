@@ -10,8 +10,8 @@ class Movie extends Component {
         <div className="MovieContainer">
           <div className="textContainer">
             <div className="movieTextContainer">
-            <p className="movieParagraph">My first responsive website, created in week 2 of The Iron Yard. It has 3 pages with break points set for mobile, tablet and desktop. </p>
-            <p className="movieSkillList">React | Redux | CSS</p>
+            <p className="movieParagraph">My first responsive website, created in week 2 of The Iron Yard. It has 3 pages with break points set for mobile, tablet and desktop. It was created based off mockup pictures of how the site should respond at different size screens.</p>
+            <p className="movieSkillList">HTML | Responsive Design | CSS</p>
             <button className="movieButton one">
               <a href="https://matthew-mcdonald.github.io/Responsive-Movie-Site/" target="_blank">
                 Live Site
