@@ -17,11 +17,6 @@ class Etsy extends Component {
             <p className="etsySkillList">ReactJs | HTML | Bootstrap</p>
             </div>
             <div className="buttonDiv">
-            <button className="etsyButton one">
-              <a href="" target="_blank">
-                Live Site
-              </a>
-            </button>
             <button className="etsyButton two">
               <a href="https://github.com/TIY-Etsy-Project/TIY-Etsy-Final" target="_blank">
                 Code
@@ -44,3 +39,9 @@ class Etsy extends Component {
 }
 
 export default Etsy;
+
+// <button className="etsyButton one">
+//   <a href="" target="_blank">
+//     Live Site
+//   </a>
+// </button>

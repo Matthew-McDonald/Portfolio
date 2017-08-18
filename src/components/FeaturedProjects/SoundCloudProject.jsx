@@ -18,8 +18,7 @@ class SoundCloud extends Component {
             <p className="soundCloudSkillList">Javascript | API | HTML | CSS</p>
             <button className="soundCloudButton one">
               <a
-                href="https://matthew-mcdonald.github.io/SoundCloud-API/"
-                rel="external" target="_blank"
+                href="https://hostedprojects.github.io/SoundCloud-API-Host/" target="_blank"
               >
                 Live Site
               </a>
