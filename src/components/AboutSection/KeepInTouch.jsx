@@ -17,7 +17,7 @@ class KeepInTouch extends Component {
               <h6>Email</h6>
               <p>mattmcd1221@gmail.com</p>
             </div>
-            <div>
+            <div className="phoneSection">
               <h6>Phone</h6>
               <p>484.885.9003</p>
             </div>

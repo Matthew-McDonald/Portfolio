@@ -104,12 +104,21 @@
   margin-top: 10px;
 }
 .GitHubLogo {
-  width: 100px;
-  height: 26px;
+  width: 11vw;
+  height: 3vw;
 }
 .resumeContainer {
   font-size: 20px;
   color: #040403;
   font-family: 'Catamaran';
 }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .GitHubLogo {
+    width: 100px;
+    height: 26px;
+  }
+
 }
