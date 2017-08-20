@@ -11,49 +11,51 @@
 .aboutMeChildContainer {
   margin-left: 0;
   margin-right: -10px;
+  width: 100vw;
 }
 /* entire container, keeps perspective */
-.flip-container {
+/*.flip-container {
 	perspective: 1000px;
 	transform-style: preserve-3d;
-}
+}*/
 	/*  UPDATED! flip the pane when hovered */
-	.flip-container:hover .back {
+	/*.flip-container:hover .back {
     opacity: 1;
     transform:scale(1.03);
 		/*transform: rotateY(0deg);*/
-	}
-	.flip-container:hover .front {
+	/*}*/
+	/*.flip-container:hover .front {
     opacity: 0;
 	    /*transform: rotateY(180deg);*/
-	}
 
-.flip-container, .front, .back {
+
+.back {
   width: 100vw;
 	height: 30vw;
 }
 
 /* flip speed goes here */
 .flipper {
-	transition: 1s;
+	/*transition: 1s;
 	transform-style: preserve-3d;
-	position: relative;
+	position: relative;*/
   text-align: center;
+  border-bottom: 1px solid #34495E;
 }
 
 /* hide back of pane during swap */
 .front, .back {
 	/*backface-visibility: hidden;*/
-	transition: 1s;
-	transform-style: preserve-3d;
-	position: absolute;
-	top: 0;
-	left: 0;
+	/*transition: 1s;
+	transform-style: preserve-3d;*/
+	/*position: absolute;*/
+	/*top: 0;
+	left: 0;*/
 }
 
 /*  UPDATED! front pane, placed above back */
 .front {
-	z-index: 2;
+	/*z-index: 2;*/
   background-color: #34495E;
   display: flex;
   align-items: center;
@@ -76,21 +78,21 @@
 .kitback {
   color: #34495E;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  padding-top: 10px;
+  grid-template-columns: 1fr 1fr;
+  height: 27vw;
 }
 .kitback h6 {
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 0;
   margin-top: 0;
 }
 .kitback p {
-  font-size: 10px;
+  font-size: 12px;
 }
 .kitBorderBottom {
-  border-bottom: thin solid #34495E;
-  width: 80vw;
+
+
 }
 
 /* SKILLS */
@@ -141,6 +143,7 @@
   .aboutMeChildContainer {
     margin-left: 0;
     margin-right: -10px;
+    width: 33vw;
   }
   /* entire container, keeps perspective */
   .flip-container {
@@ -206,7 +209,7 @@
     color: #34495E;
     display: grid;
     grid-template-rows: 1fr 1fr;
-
+    grid-template-columns: none;
   }
   .kitback h6 {
     font-weight: bold;
@@ -240,7 +243,7 @@
   .backPtwo {
     margin-top: -5px;
     width: 33vw;
-    padding-bottom: 5px;
+    padding-bottom:5px;
   }
   .backPthree {
     border-top: thin solid #34495E;
@@ -407,7 +410,7 @@ align-content: center;
   /* ABOUT */
   .aboutBack {
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 16px;
 
   }
   .aboutBack p {
@@ -451,7 +454,7 @@ align-content: center;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 0;
-    margin-top: 0;
+
   }
   .kitback p {
     font-size: 14px;
@@ -460,6 +463,7 @@ align-content: center;
     border-bottom: thin solid #34495E;
     width: 23vw;
     padding-bottom: 10px;
+    padding-top: 10px;
   }
   .phoneSection {
 

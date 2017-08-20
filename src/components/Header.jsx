@@ -21,9 +21,9 @@ class Header extends Component {
       <div className="NavBar">
         <a href="#AboutMe">About</a>
         <br/>
-        <a href="#Featured">Projects</a>
+        <a href="#Projects">Projects</a>
         <br/>
-        <a href="#AboutMe">Contact</a>
+        <a href="#Contact">Contact</a>
         <br/>
         <a href={process.env.PUBLIC_URL + "/MatthewMcDonald-Resume.pdf"} target="_blank">Resume</a>
       </div>

@@ -17,6 +17,7 @@ class AboutSection extends Component {
         <AboutMe />
       </div>
       <div className="aboutMeChildContainer">
+        <a name="Contact"></a>
         <KeepInTouch />
       </div>
       </div>

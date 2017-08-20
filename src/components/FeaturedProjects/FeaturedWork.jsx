@@ -10,7 +10,7 @@ class Featured extends Component {
       <div className="featuredContainer">
 
         <div className="etsy-ProjectContainer projectContainer">
-          <a name="Featured"></a>
+          <a name="Projects"></a>
         <Etsy />
         </div>
         <div className="projectContainer soundCloud-ProjectContainer">
