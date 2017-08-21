@@ -16,8 +16,10 @@
   width: 80vw;
   height: 40vw;
   overflow: scroll;
-  border: 10px solid #484848;
-  border-radius: 5px;
+  border: 1px solid black;
+  -webkit-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+  -moz-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+  box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
   margin-top: 10px;
   margin: auto;
 }
@@ -169,8 +171,10 @@
   width: 80vw;
   height: 40vw;
   overflow: scroll;
-  border: 10px solid black;
-  border-radius: 5px;
+  border: 1px solid black;
+  -webkit-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+  -moz-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+  box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
   z-index: 0;
 }
 .projectScreenShotMovie {
@@ -187,6 +191,9 @@
   top: 82%;
   left: 98%;
   transform: translate(-50%, -50%);
+  -webkit-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+  -moz-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+  box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
 }
 .mobileScreenShot {
   width: inherit;
@@ -249,8 +256,11 @@
     width: 40vw;
     height: 40vw;
     overflow: scroll hidden;
-    border: 10px solid #484848;
-    border-radius: 5px;
+    -webkit-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    -moz-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    border: 1px solid black;
+
   }
   .projectScreenShot {
     width: inherit;
@@ -446,8 +456,10 @@
     width: 40vw;
     height: 40vw;
     overflow: scroll hidden;
-    border: 10px solid #34495e;
-    border-radius: 5px;
+    border: 1px solid black;
+    -webkit-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    -moz-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
     z-index: 0;
   }
   .projectScreenShotMovie {
@@ -474,11 +486,13 @@
 @media screen and (min-width: 769px) {
   /***ALL***/
   .imageContainer {
-    width: 35vw;
-    height: 25vw;
+    width: 40vw;
+    height: 35vw;
     overflow: scroll hidden;
-    border: 10px solid #34495e;
-    border-radius: 5px;
+    border: 1px solid black;
+    -webkit-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    -moz-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
     margin: 0;
   }
   .projectScreenShot {
@@ -512,7 +526,7 @@
   .soundCloudTextContainer {
     color: #34495e;
     text-align: center;
-    width: 30vw;
+    width: 35vw;
     font-size: 18px;
     margin-right: -10vw;
   }
@@ -523,7 +537,7 @@
     border-top: thin solid #484848;
     border-bottom: thin solid #484848;
     margin: auto;
-    width: 20vw;
+    width: 33vw;
     line-height: 3;
     margin-bottom: 20px;
   }
@@ -566,7 +580,7 @@
   .etsyTextContainer {
     color: #34495e;
     text-align: center;
-    width: 30vw;
+    width: 35vw;
     font-size: 18px;
     margin-right: -10vw;
   }
@@ -577,7 +591,7 @@
     border-top: thin solid #484848;
     border-bottom: thin solid #484848;
     margin: auto;
-    width: 20vw;
+    width: 30vw;
     line-height: 3;
     margin-bottom: 20px;
   }
@@ -619,22 +633,23 @@
   .movieTextContainer {
     color: #34495e;
     text-align: center;
-    width: 30vw;
+    width: 35vw;
     font-size: 18px;
     margin-right: -10vw;
   }
   .movieTitle {
     color: #34495e;
-    font-size: 30px;
+    font-size: 30spx;
   }
   .movieParagraph {
     text-align: left;
+    width: 35vw;
   }
   .movieSkillList {
     border-top: thin solid #484848;
     border-bottom: thin solid #484848;
     margin: auto;
-    width: 20vw;
+    width: 35vw;
     line-height: 3;
     margin-bottom: 20px;
   }
@@ -665,17 +680,19 @@
 
   .mainMovieContainer {
     position: relative;
-    width: 37vw;
-    height: 25vw;
+    width: 40vw;
+    height: 35vw;
   }
 
   .movieImageContainer {
     position: absolute;
-    width: 35vw;
-    height: 25vw;
+    width: 40vw;
+    height: 35vw;
     overflow: scroll;
-    border: 10px solid #34495e;
-    border-radius: 5px;
+    border: 1px solid black;
+    -webkit-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    -moz-box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
+    box-shadow: 8px 8px 5px 5px rgba(0,0,0,0.16);
     z-index: 0;
   }
   .projectScreenShotMovie {
@@ -696,4 +713,19 @@
   .mobileScreenShot {
     width: inherit;
   }
+}
+@media screen and (min-width: 769px) {
+  .imageContainer {
+    width: 35vw;
+    height: 30vw;
+  }
+  .mainMovieContainer {
+    width: 35vw;
+    height: 30vw;
+  }
+  .movieImageContainer {
+    width: 35vw;
+    height: 30vw;
+  }
+
 }
