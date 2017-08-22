@@ -497,5 +497,29 @@ align-content: center;
   .phoneSection {
     margin-top: -10px;
   }
+/*SKILLS */
+  .skillsBack {
+    color: #34495E;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 14px;
+    justify-items: center;
+
+  }
+  .backPone {
+    border-bottom: thin solid #34495E;
+    padding-bottom: 20px;
+    width: 26vw;
+  }
+  .backPtwo {
+    margin-top: -5px;
+    width: 33vw;
+  }
+  .backPthree {
+    border-top: thin solid #34495E;
+    padding-top: 20px;
+    margin-top: -20px;
+    width: 26vw;
+  }
 
 }

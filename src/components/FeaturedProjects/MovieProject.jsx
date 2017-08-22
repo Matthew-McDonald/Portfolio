@@ -12,16 +12,16 @@ class Movie extends Component {
             <div className="movieTextContainer">
             <p className="movieParagraph">My first responsive website, created in week 2 of The Iron Yard. It has 3 pages with break points set for mobile, tablet and desktop. It was created based off mockup pictures of how the site should respond at different size screens.</p>
             <p className="movieSkillList">HTML | Responsive Design | CSS</p>
-            <button className="movieButton one">
               <a href="https://hostedprojects.github.io/Responsive-Movie-Site/" target="_blank">
+                <button className="movieButton one">
                 Live Site
+                </button>
               </a>
-            </button>
-            <button className="movieButton two">
               <a href="https://github.com/Matthew-McDonald/Responsive-Movie-Site" target="_blank">
+                <button className="movieButton two">
                 Code
+                </button>
               </a>
-            </button>
             </div>
           </div>
           <div className="mainMovieContainer">

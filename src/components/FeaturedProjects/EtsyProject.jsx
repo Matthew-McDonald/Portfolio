@@ -17,11 +17,13 @@ class Etsy extends Component {
             <p className="etsySkillList">ReactJs | HTML | Bootstrap</p>
             </div>
             <div className="buttonDiv">
-            <button className="etsyButton two">
+
               <a href="https://github.com/TIY-Etsy-Project/TIY-Etsy-Final" target="_blank">
+                <button className="etsyButton two">
                 Code
+                </button>
               </a>
-            </button>
+
             </div>
             </div>
           </div>

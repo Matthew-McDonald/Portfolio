@@ -16,21 +16,25 @@ class SoundCloud extends Component {
               display the results and play songs right from the app. This was also my first time designing my own app from the ground up with CSS.
             </p>
             <p className="soundCloudSkillList">Javascript | API | HTML | CSS</p>
-            <button className="soundCloudButton one">
+
               <a
                 href="https://hostedprojects.github.io/SoundCloud-API-Host/" target="_blank"
               >
+              <button className="soundCloudButton one">
                 Live Site
+                </button>
               </a>
-            </button>
-            <button className="soundCloudButton two">
+
+
               <a
                 href="https://github.com/Matthew-McDonald/SoundCloud-API"
                 target="_blank"
               >
+              <button className="soundCloudButton two">
                 Code
+                </button>
               </a>
-            </button>
+
             </div>
           </div>
           <div className="soundCloudImgContainer imageContainer">
