@@ -15,25 +15,26 @@
   position: absolute;
   line-height: 1;
   width: 100vw;
-  color: Black;
+  color: #34495E;
   font-weight: bold;
 }
 .headerContainer h1 {
-  font-family: Slabo;
+  font-family: "Josefin Sans";
   margin-left: 15px;
   margin-top: 20px;
   margin-bottom: -15px;
+  font-weight: bold;
 }
 .headerContainer p {
   color: #A4243B;
-  font-weight: bold;
   margin-left:90px;
+  font-family: "Josefin Sans";
 }
 .NavBar a {
   color: #e6e6e6;
   text-decoration: none;
   margin-right: 15px;
-  font-family: Slabo;
+  font-family: "Josefin Sans";
 }
 
 
@@ -43,19 +44,21 @@
     position: absolute;
     line-height: 1;
     width: 100vw;
-    color: Black;
+    color: #34495E;
     font-weight: bold;
   }
   .headerContainer h1 {
-    font-family: Slabo;
+    font-family: "Josefin Sans";
     margin-left: 30px;
     margin-top: 40px;
     margin-bottom: -15px;
+    font-weight: bold;
+    font-size: 35px;
   }
   .headerContainer p {
     color: #A4243B;
-    font-weight: bold;
     margin-left: 140px;
+    font-family: "Josefin Sans";
   }
 
   .headerWrapper {
@@ -70,7 +73,7 @@
     color: #e6e6e6;
     text-decoration: none;
     margin-right: 15px;
-    font-family: Slabo;
+    font-family: "Josefin Sans";
   }
 }
 /******DESKTOP*****/
@@ -95,7 +98,7 @@
 .headerContainer p {
   color: #A4243B;
   font-weight: bold;
-  margin-left: 140px;
+  margin-left: 180px;
   font-family: "Josefin Sans";
 }
 
