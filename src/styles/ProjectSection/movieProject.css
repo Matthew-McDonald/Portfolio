@@ -89,6 +89,7 @@
   border: thin solid #34495e;
   background-color: #e6e6e6;
   font-family: "Josefin Sans";
+  outline: none;
 }
 .movieButton:hover {
   border-color: #a4243b;
@@ -153,6 +154,7 @@
     border: thin solid #34495e;
     background-color: #e6e6e6;
     font-family: "Josefin Sans";
+    outline: none;
   }
   .movieButton:hover {
     border-color: #a4243b;
@@ -253,6 +255,7 @@
     border: thin solid #34495e;
     background-color: #e6e6e6;
     font-family: "Josefin Sans";
+    outline: none;
   }
   .movieButton:hover {
     border-color: #a4243b;
