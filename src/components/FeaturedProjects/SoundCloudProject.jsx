@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "../../styles/FeaturedWork.css";
+import "../../styles/ProjectSection/FeaturedWork.css";
+import "../../styles/ProjectSection/soundCloudProject.css";
 import { Link } from "react-router-dom";
 
 class SoundCloud extends Component {

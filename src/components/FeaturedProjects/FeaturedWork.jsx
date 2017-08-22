@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styles/FeaturedWork.css";
+import "../../styles/ProjectSection/FeaturedWork.css";
 import SoundCloud from "./SoundCloudProject";
 import Etsy from "./EtsyProject";
 import ResponsiveMovie from "./MovieProject";

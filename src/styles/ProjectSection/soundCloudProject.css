@@ -1,0 +1,179 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
+
+/*********************MOBILE*********************/
+
+.soundCloud-ProjectContainer {
+  background-color: #dad2d8;
+}
+.soundCloudContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.soundCloudTitle {
+  color: #34495e;
+  font-size: 30px;
+}
+.soundCloudTextContainer {
+  color: #34495e;
+  text-align: center;
+  width: 100vw;
+  font-size: 16px;
+  margin-right: -10vw;
+}
+.soundCloudParagraph {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.soundCloudSkillList {
+  border-top: thin solid #484848;
+  border-bottom: thin solid #484848;
+  margin: auto;
+  width: 80vw;
+  line-height: 3;
+  margin-bottom: 20px;
+}
+.one {
+  margin-right: 10px;
+}
+.two {
+  margin-left: 10px;
+}
+.soundCloudButton {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: thin solid #34495e;
+  background-color: #e6e6e6;
+}
+.soundCloudButton:hover {
+  border-color: #a4243b;
+}
+.soundCloudButton a {
+  text-decoration: none;
+  color: #34495e;
+}
+.soundCLoudButton a:hover {
+  color: #a4243b;
+}
+
+/*********************TABLET*********************/
+
+@media screen and (min-width: 545px) {
+  .soundCloudContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-template-rows: none;
+  }
+  .soundCloudTitle {
+    color: #34495e;
+    font-size: 30px;
+  }
+  .soundCloudTextContainer {
+    color: #34495e;
+    text-align: center;
+    width: 40vw;
+    font-size: 18px;
+    margin-right: -10vw;
+  }
+  .soundCloudParagraph {
+    text-align: left;
+    padding: 0;
+  }
+  .soundCloudSkillList {
+    border-top: thin solid #484848;
+    border-bottom: thin solid #484848;
+    margin: auto;
+    width: 40vw;
+    line-height: 3;
+    margin-bottom: 20px;
+  }
+  .one {
+    margin-right: 10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .soundCloudButton {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin solid #34495e;
+    background-color: #e6e6e6;
+  }
+  .soundCloudButton:hover {
+    border-color: #a4243b;
+    transform: scale(1.1);
+  }
+  .soundCloudButton a {
+    text-decoration: none;
+    color: #34495e;
+  }
+  .soundCLoudButton a:hover {
+    color: #a4243b;
+  }
+}
+
+/*********************DESKTOP*********************/
+
+@media screen and (min-width: 769px) {
+  .soundCloudContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .soundCloudTitle {
+    color: #34495e;
+    font-size: 40px;
+  }
+  .soundCloudTextContainer {
+    color: #34495e;
+    text-align: center;
+    width: 35vw;
+    font-size: 24px;
+    margin-right: -10vw;
+  }
+  .soundCloudParagraph {
+    text-align: left;
+  }
+  .soundCloudSkillList {
+    border-top: thin solid #484848;
+    border-bottom: thin solid #484848;
+    margin: auto;
+    width: 33vw;
+    line-height: 3;
+    margin-bottom: 20px;
+  }
+  .one {
+    margin-right: 10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .soundCloudButton {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin solid #34495e;
+    background-color: #e6e6e6;
+    font-family: "Josefin Sans";
+  }
+  .soundCloudButton:hover {
+    border-color: #a4243b;
+    transform: scale(1.1);
+  }
+  .soundCloudButton a {
+    text-decoration: none;
+    color: #34495e;
+  }
+  .soundCLoudButton a:hover {
+    color: #a4243b;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .soundCloudSkillList {
+    width: 25vw;
+  }
+}

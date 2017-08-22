@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "../../styles/FeaturedWork.css";
+import "../../styles/ProjectSection/FeaturedWork.css";
+import "../../styles/ProjectSection/movieProject.css"
 import { Link } from "react-router-dom";
 
 class Movie extends Component {
