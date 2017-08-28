@@ -12,9 +12,7 @@ class SoundCloud extends Component {
           <div className="soundCLoudtextContainer textContainer">
             <div className="soundCloudTextContainer">
             <p className="soundCloudParagraph">
-              This was my first personal Javascript project. I utilized SoundCloud's
-              API to instantly search for tracks and bands on SoundClound,
-              display the results and play songs right from the app. This was also my first time designing my own app from the ground up with CSS.
+              My first challenge using Javascript and CSS was utilizing the SoundCloud's API to instantly search for tracks and bands, display the results and play songs right from the application.
             </p>
             <p className="soundCloudSkillList">Javascript | API | HTML | CSS</p>
 

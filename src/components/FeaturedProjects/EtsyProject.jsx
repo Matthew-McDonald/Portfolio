@@ -13,7 +13,7 @@ class Etsy extends Component {
             <div className="etsyTextContainer">
             <div>
             <p className="etsyParagraph">
-              This was a whole class project where we were split into small groups and given different pages from the Etsy website to replicate in ReactJs. My group was tasked with the home page and header. Once complete I led the class in joining the 4 repos together into one organization on Github.
+              Broken into smaller groups, the Etsy Replica was a collaborative project amongst all classmates. My group was tasked to rebuild the Etsy homepage and header using ReactJS. Once complete, I led the joining the 4 repos together into one organization on Github.
             </p>
             <p className="etsySkillList">ReactJs | HTML | Bootstrap</p>
             </div>
